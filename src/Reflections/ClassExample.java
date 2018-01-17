@@ -21,7 +21,7 @@ public class ClassExample implements Runnable {
 
     }
 
-    private ClassExample(long y){ // This constructor is not returned by class.getConstructors as this is private
+    private ClassExample(Long y){ // This constructor is not returned by class.getConstructors as this is private
 
     }
 
