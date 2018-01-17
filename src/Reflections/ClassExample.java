@@ -10,7 +10,7 @@ public class ClassExample implements Runnable {
 
     private int intField=0;
     public long longField=0;
-    public static String stringField="";
+    protected static String stringField="";
     public static final double DOUBLE_FIELD=0.0;
 
     public ClassExample(){
