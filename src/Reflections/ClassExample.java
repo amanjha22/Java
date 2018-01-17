@@ -103,4 +103,14 @@ public class ClassExample implements Runnable {
     public void run() {
         //DO NOTHING
     }
+
+    private int checkAccess(){return 0;}
+
+    public int checkInvocation(){
+        return 10;
+    }
+
+    public long checkInvocation(long x){
+        return x;
+    }
 }
